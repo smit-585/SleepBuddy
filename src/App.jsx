@@ -23,7 +23,7 @@ function App() {
   const fieldConfig = {
     Gender: { type: "select", options: ["Male", "Female"] },
     Age: { type: "number", min: 1, max: 120, placeholder: "e.g., 25" },
-    Occupation: { type: "select", options: ["Student","Software Engineer", "Doctor","Businessman", "Sales Representative", "Teacher", "Nurse", "Engineer", "Accountant", "Scientist", "Lawyer", "Salesperson", "Manager"] },
+    Occupation: { type: "select", options: ["Smit","Software Engineer", "Doctor","Businessman", "Sales Representative", "Teacher", "Nurse", "Engineer", "Accountant", "Scientist", "Lawyer", "Salesperson", "Manager"] },
     "Sleep Duration": { type: "number", min: 1, max: 24, step: 0.1, placeholder: "Hours (e.g., 7.5)" },
     "Physical Activity Level": { type: "number", min: 0, max: 100, placeholder: "Minutes per day (e.g., 60)" },
     "Stress Level": { type: "range", min: 1, max: 10, placeholder: "1-10 scale" },
